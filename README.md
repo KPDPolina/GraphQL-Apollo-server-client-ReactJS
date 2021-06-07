@@ -1,5 +1,6 @@
 # GraphQL-Apollo-server-client-ReactJS
 Clone the repository.
+The **.env** file must be placed in the **server** folder.
 
 First you need to start the server.
 
