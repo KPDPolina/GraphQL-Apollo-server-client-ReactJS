@@ -2,6 +2,7 @@
 Clone the repository.
 
 First you need to start the server.
+
 **cd server**
 
 **npm start**
@@ -9,6 +10,7 @@ First you need to start the server.
 http://localhost:4000/
 
 Then run the react application.
+
 **cd client**
 
 **npm start**
