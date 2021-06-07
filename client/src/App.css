@@ -1,0 +1,77 @@
+body {
+  background-color:rgb(253, 247, 238);
+}
+
+#root {
+  margin: 20px;
+  padding-left: 4%;
+}
+#returnPage {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: fit-content;
+  background: rgb(124, 207, 46);
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 10px;
+  margin: 20px 10px 0px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.productList {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.product {
+  word-wrap:break-word;
+  height: 100px;
+  width: 150px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 10px;
+  margin-left: 0px;
+  background-color: white;
+}
+.productName {
+  font-size: larger;
+  font-weight: 500;
+}
+.productTags {
+  font-size: small;
+  color: grey;
+}
+.productPrice {
+  font-size: large;
+  width: fit-content;
+  background-color: rgba(178, 247, 73, 0.5);
+}
+.productDesc {
+  font-style: italic;
+  font-size: 15px;
+}
